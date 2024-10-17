@@ -1,0 +1,17 @@
+.button {
+    -fx-background-color: #333333;  /* Dark gray background */
+    -fx-text-fill: #ffffff;          /* White text color */
+    -fx-padding: 10px 20px;          /* Simple padding */
+    -fx-background-radius: 50px;      /* Slightly rounded corners */
+    -fx-font-size: 14px;             /* Moderate font size */
+}
+
+/* Hover effect */
+.button:hover {
+    -fx-background-color: #4d4d4d;  /* Lighter gray on hover */
+}
+
+/* Pressed effect */
+.button:pressed {
+    -fx-background-color: #1a1a1a;  /* Darker gray when pressed */
+}

@@ -1,0 +1,6 @@
+.label {
+    -fx-text-fill: #ffffff;       /* White text for high contrast */
+    -fx-font-size: 18px;          /* Simple font size */
+    -fx-font-weight: bold;        /* Make the text stand out */
+    -fx-background-color: transparent;  /* Transparent background */
+}
