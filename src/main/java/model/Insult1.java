@@ -27,8 +27,8 @@ public class Insult1 {
 
     private Stage createStage() throws IOException {
         Stage stage = new Stage();
-        Image icon = loadImage("/resource/image/mainIcon.png");
-        Parent layout = loadFXML("/resource/views/Insult1View.fxml");
+        Image icon = loadImage("/image/mainIcon.png");
+        Parent layout = loadFXML("/views/Insult1View.fxml");
         Scene scene = new Scene(layout);
 
         stage.setScene(scene);

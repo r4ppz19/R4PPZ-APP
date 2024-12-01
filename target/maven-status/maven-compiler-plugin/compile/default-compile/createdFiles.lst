@@ -1,9 +1,9 @@
-controllers\WelcomeController.class
 model\Insult2.class
+model\Welcome.class
+model\Insult1.class
+controllers\WelcomeController.class
 model\Main.class
 controllers\LoginController.class
-model\Welcome.class
 controllers\MainController.class
 model\Insult3.class
 model\Login.class
-model\Insult1.class

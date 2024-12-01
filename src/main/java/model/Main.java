@@ -35,11 +35,11 @@ public class Main extends Application {
 
 
     private Image loadImage() {
-        return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/resource/image/mainIcon.png")));
+        return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/image/mainIcon.png")));
     }
 
     private Parent loadFXML() throws Exception {
-        return FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/resource/views/MainView.fxml")));
+        return FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/views/MainView.fxml")));
     }
 
 }

@@ -35,10 +35,10 @@ public class Login {
     }
 
     private Parent loadFXML() throws Exception {
-        return FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/resource/views/LoginView.fxml")));
+        return FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/views/LoginView.fxml")));
     }
 
     private Image loadImage() {
-        return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/resource/image/mainIcon.png")));
+        return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/image/mainIcon.png")));
     }
 }

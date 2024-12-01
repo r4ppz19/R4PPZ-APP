@@ -10,10 +10,10 @@ import java.util.Objects;
 
 public class Welcome {
     public void displayWelcome() throws Exception {
-        Image icon = loadImage("/resource/image/mainIcon.png");
+        Image icon = loadImage("/image/mainIcon.png");
 
         Stage stage = new Stage();
-        Parent layout = loadFXML("/resource/views/WelcomeView.fxml");
+        Parent layout = loadFXML("/views/WelcomeView.fxml");
         Scene scene = new Scene(layout);
 
         stage.setScene(scene);
