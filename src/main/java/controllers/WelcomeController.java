@@ -1,12 +1,12 @@
-package main.java.controllers;
+package controllers;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.stage.Stage;
-import main.java.model.Insult1;
-import main.java.model.Insult2;
-import main.java.model.Insult3;
+import model.Insult1;
+import model.Insult2;
+import model.Insult3;
 
 import java.util.Random;
 

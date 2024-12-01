@@ -1,4 +1,4 @@
-package main.java.controllers;
+package controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -7,8 +7,8 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import main.java.model.Insult1;
-import main.java.model.Login;
+// import model.Insult1;
+import model.Login;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -16,7 +16,7 @@ import java.util.Objects;
 public class MainController {
 
     private final Login login = new Login();
-    private final Insult1 insult1 = new Insult1();
+    // private final Insult1 insult1 = new Insult1();
 
     @FXML
     public void displayWindow3Button(ActionEvent actionEvent) throws Exception {

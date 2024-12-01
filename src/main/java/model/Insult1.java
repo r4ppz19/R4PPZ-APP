@@ -1,4 +1,4 @@
-package main.java.model;
+package model;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -50,7 +50,7 @@ public class Insult1 {
         stage.setOnCloseRequest(event -> event.consume());
 
         // NOT ABLE TO MINIMIZE
-        stage.iconifiedProperty().addListener((_, _, newValue) -> {
+        stage.iconifiedProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue) {
                 stage.setIconified(false); // Reset to not minimized
             }
