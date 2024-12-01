@@ -28,7 +28,7 @@ public class WelcomeController {
                 for (int i = 0; i < 500; i++) {
                     int randomInsult = random.nextInt(3);
                     displayInsult(randomInsult);
-                    Thread.sleep(400);
+                    Thread.sleep(100);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
