@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+.idea/
+*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -24,6 +26,36 @@ bin/
 
 ### VS Code ###
 .vscode/
+*.code-workspace
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Java ###
+*.class
+*.log
+*.ctxt
+
+### Logs ###
+logs
+*.log
+*.log.*
+
+### Temporary files ###
+*.tmp
+*.temp
+*.swp
+*~
