@@ -1,4 +1,4 @@
-package application.main;
+package main.java.model;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,12 +10,11 @@ import java.io.IOException;
 import java.util.Objects;
 import java.util.Random;
 
-public class Insult3 {
+public class Insult2 {
+    private static final int RES_WIDTH = 1366; // Use private static final for constants
+    private static final int RES_HEIGHT = 768; // Use private static final for constants
 
-    private static final int RES_WIDTH = 1366;
-    private static final int RES_HEIGHT = 768;
-
-    public void displayInsult3() throws IOException {
+    public void displayInsult2() throws IOException {
         Stage stage = createStage();
 
         int posX = getRandomPosition(RES_WIDTH);
@@ -28,7 +27,7 @@ public class Insult3 {
     private Stage createStage() throws IOException {
         Stage stage = new Stage();
         Image icon = loadImage("/resource/image/mainIcon.png");
-        Parent layout = loadFXML("/resource/views/Insult3View.fxml");
+        Parent layout = loadFXML("/resource/views/Insult2View.fxml");
         Scene scene = new Scene(layout);
 
         stage.setScene(scene);

@@ -1,4 +1,4 @@
-package application.main;
+package main.java.model;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,11 +10,12 @@ import java.io.IOException;
 import java.util.Objects;
 import java.util.Random;
 
-public class Insult2 {
+public class Insult1 {
+
     private static final int RES_WIDTH = 1366; // Use private static final for constants
     private static final int RES_HEIGHT = 768; // Use private static final for constants
 
-    public void displayInsult2() throws IOException {
+    public void displayInsult1() throws IOException {
         Stage stage = createStage();
 
         int posX = getRandomPosition(RES_WIDTH);
@@ -27,7 +28,7 @@ public class Insult2 {
     private Stage createStage() throws IOException {
         Stage stage = new Stage();
         Image icon = loadImage("/resource/image/mainIcon.png");
-        Parent layout = loadFXML("/resource/views/Insult2View.fxml");
+        Parent layout = loadFXML("/resource/views/Insult1View.fxml");
         Scene scene = new Scene(layout);
 
         stage.setScene(scene);
@@ -49,7 +50,7 @@ public class Insult2 {
         stage.setOnCloseRequest(event -> event.consume());
 
         // NOT ABLE TO MINIMIZE
-        stage.iconifiedProperty().addListener((observable, oldValue, newValue) -> {
+        stage.iconifiedProperty().addListener((_, _, newValue) -> {
             if (newValue) {
                 stage.setIconified(false); // Reset to not minimized
             }

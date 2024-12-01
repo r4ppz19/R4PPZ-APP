@@ -1,12 +1,12 @@
-package application.controllers;
+package main.java.controllers;
 
-import application.main.Insult1;
-import application.main.Insult2;
-import application.main.Insult3;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.scene.Node;
 import javafx.stage.Stage;
+import main.java.model.Insult1;
+import main.java.model.Insult2;
+import main.java.model.Insult3;
 
 import java.util.Random;
 
@@ -40,9 +40,15 @@ public class WelcomeController {
         Platform.runLater(() -> {
             try {
                 switch (randomInsult) {
-                    case 0 -> insult2.displayInsult2();
-                    case 1 -> insult1.displayInsult1();
-                    case 2 -> insult3.displayInsult3();
+                    case 0:
+                        insult2.displayInsult2();
+                         break;
+                    case 1: 
+                        insult1.displayInsult1();
+                        break;
+                    case 2:
+                        insult3.displayInsult3();
+                        break;
                 }
             } catch (Exception e) {
                 e.printStackTrace();

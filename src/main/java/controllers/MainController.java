@@ -1,7 +1,5 @@
-package application.controllers;
+package main.java.controllers;
 
-import application.main.Insult1;
-import application.main.Login;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -9,6 +7,8 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import main.java.model.Insult1;
+import main.java.model.Login;
 
 import java.io.IOException;
 import java.util.Objects;
